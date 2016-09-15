@@ -1,5 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .jumbotron
+    .container
+      h1 Welcome To Express Website
+      p Welcome to #{title} here
+      a.btn.btn-primary.btn-lg.btn-flat(href='#') Learn More
+  .container
+    .row
+      .col-md-4.col-sm-4
+        h2 About Us
+        p Among other things, there's a bug in Firefox <30 that prevents us from setting the line-height-based buttons, causing them to not exactly match the height of other buttons on Firefox.
+
+      .col-md-4.col-sm-4
+        h2 Contact Us
+        p Among other things, there's a bug in Firefox <30 that prevents us from setting the line-height-based buttons, causing them to not exactly match the height of other buttons on Firefox.
+
+      .col-md-4.col-sm-4
+        h2 What We Do
+        p Among other things, there's a bug in Firefox <30 that prevents us from setting the line-height-based buttons, causing them to not exactly match the height of other buttons on Firefox.
