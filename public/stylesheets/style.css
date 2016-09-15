@@ -42,3 +42,11 @@ footer{
   padding-top: 10px;
   overflow: auto;
 }
+
+textarea.form-control {
+  height: 100px;
+}
+input{
+  outline-color: transparent;
+  outline: none;
+}
